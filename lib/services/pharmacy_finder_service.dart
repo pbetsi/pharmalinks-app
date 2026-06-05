@@ -27,7 +27,7 @@ Future<List<Map<String, dynamic>>> fetchOpenPharmaciesNearby(
     
     // ✅ Utiliser Overpass Turbo (autorise CORS)
     final url = Uri.parse('https://overpass-turbo.eu/api/interpreter');
-    
+    // paul
     final query = '''
       [out:json][timeout:25];
       node["amenity"="pharmacy"](around:${radiusKm * 1000},${position.latitude},${position.longitude});
