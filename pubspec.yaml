@@ -50,7 +50,7 @@ dependencies:
   # ✅ FICHIERS, CSV & EXCEL
   file_picker: ^6.2.1
   csv: ^6.0.0
-  path: ^1.9.1
+  path: ^1.9.0
   path_provider: ^2.1.5
   
   # ✅ Syncfusion - Version compatible avec intl ^0.20.2
