@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "curl -LO https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.24.0-stable.tar.xz && tar xf flutter_linux_3.24.0-stable.tar.xz && export PATH=\"$PATH:`pwd`/flutter/bin\" && flutter pub get && flutter build web --release --web-renderer html",
+  "buildCommand": "chmod +x build.sh && ./build.sh",
   "outputDirectory": "build/web",
-  "installCommand": "echo 'Flutter will be installed during build'",
+  "installCommand": "echo 'Building...'",
   "framework": null,
   "rewrites": [
     {
