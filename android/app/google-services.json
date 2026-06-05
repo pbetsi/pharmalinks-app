@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1022621555271",
+    "project_id": "pharmalink-africa",
+    "storage_bucket": "pharmalink-africa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022621555271:android:bd8993e8c0f03bdd25ef62",
+        "android_client_info": {
+          "package_name": "com.pharmalink.africa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjJN6js7cX_NBuoO_Hw0WuFgmxw-24nJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
