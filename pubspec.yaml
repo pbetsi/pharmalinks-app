@@ -10,6 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
 
+  
+
   # ✅ CORE & UI - Versions compatibles avec intl 0.20.2
   cupertino_icons: ^1.0.8
   provider: ^6.1.2
@@ -38,7 +40,7 @@ dependencies:
   latlong2: ^0.9.1     # ✅ NE PAS utiliser ^0.10.1 avec flutter_map 6.x
   geolocator: ^13.0.4
   geocoding: ^4.0.0
-  url_launcher: ^6.3.2
+  url_launcher: ^6.2.1
 
   # ✅ IMAGES, SCAN & OCR
   image_picker: ^1.2.0
